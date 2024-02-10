@@ -1,0 +1,62 @@
+/* adding styling at the boddy */
+body{
+    text-align: center;
+}
+body div{
+    padding: 1%;
+}
+p, label, button, input, option, select{
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 1.2em;
+}
+/* adding styling image */
+#images{
+    height: auto;
+    width: 30%;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 10%;
+}
+#images:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out;
+     
+}
+
+/* styling buttons */
+.custColor{
+    background-color: aquamarine;
+    padding: 8px 13px;
+    color: green;
+}
+.randColor{
+    background-color:rgb(225, 133, 208);
+    padding: 8px 13px;
+    color: blue;
+}
+.reStart{
+    background-color:rgb(219, 177, 80);
+    padding: 8px 13px;
+    color: red;
+}
+/* hover effect to buttons  */
+.custColor:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    box-shadow: 2px 2px 3px white;
+}
+.randColor:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    box-shadow: 2px 2px 3px white;
+}
+.reStart:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    box-shadow: 2px 2px 3px white;
+}
+#myStudentId{
+    text-shadow: 2px 2px 2px gray;
+    font-size: 1.4em;
+    text-decoration: underline;
+    
+}
